@@ -54,7 +54,7 @@ function getPreviousRankMinScore(rankName) {
   // Fonction pour obtenir l'image du rang en fonction du score
   function getRankImage(score) {
     var rankName = getRankName(score);
-    return `res/rank${rankName.toLowerCase()}.png`;
+    return `res/rank/${rankName.toLowerCase()}.png`;
   }
   
   // Fonction pour obtenir l'emoji du drapeau en fonction du code du pays
