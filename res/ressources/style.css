@@ -10,7 +10,7 @@ body {
 
 
 
-    background-image: url("bg.jpg");
+    background-image: url("../img/bg.jpg");
     background-size: 100%;
     display: flex;
   flex-direction: column;
@@ -102,4 +102,8 @@ body {
     color: white;
 
     text-decoration: none;
+}
+
+img{
+  width: 25%;
 }
